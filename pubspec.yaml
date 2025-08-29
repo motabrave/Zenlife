@@ -1,0 +1,41 @@
+name: an_giac
+description: Ứng dụng 'An Giấc' - theo dõi đồ ngọt, stress, giờ ngủ để tính chỉ số & lời khuyên.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.3.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  google_fonts: ^6.1.0
+  lottie: ^2.7.0
+
+flutter:
+  uses-material-design: true
+
+
+  fonts:
+    - family: iCielCadena
+      fonts:
+        - asset: assets/fonts/iCielCadena.ttf
+    - family: Roboto-Black
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+    - family: Roboto-Regular
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+
+
+  assets:
+    - assets/sky_header.png
+    - assets/clouds.json
