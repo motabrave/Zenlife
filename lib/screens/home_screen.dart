@@ -6,7 +6,6 @@ import '../services/storage.dart';
 import '../widgets/animated_mood_icon.dart';
 import 'result_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'sweet_input_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
